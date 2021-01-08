@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import BarChartScreen from "./screens/BarChartScreen";
+import FavoritesListScreen from "./screens/FavoritesListScreen";
+import PieChartScreen from "./screens/PieChartScreen";
+import SalesTableScreen from "./screens/SalesTableScreen";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={BarChartScreen} />
+        <Route exact path="/products" component={PieChartScreen} />
+        <Route exact path="/favorites" component={FavoritesListScreen} />
+        <Route exact path="/sales" component={SalesTableScreen} />
+      </Switch>
+    </Router>
   );
 }
 

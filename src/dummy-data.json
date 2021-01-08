@@ -1,0 +1,35 @@
+{
+  "barChart": {
+    "labels": ["Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+    "values": [65, 59, 80, 81, 16]
+  },
+
+  "pieChart": {
+    "labels": ["TV", "Electrodomesticos", "Libros", "Ropa", "Deportes"],
+    "values": [65, 59, 80, 81, 56]
+  },
+
+  "salesTable": [
+    { "id": 1, "producto": "Zapatillas", "cliente": "Jon", "cantidad": 35 },
+    { "id": 2, "producto": "Celular", "cliente": "Doe", "cantidad": 42 },
+    { "id": 3, "producto": "Audifonos", "cliente": "Lucas", "cantidad": 45 },
+    { "id": 4, "producto": "Teclado", "cliente": "Luis", "cantidad": 16 },
+    { "id": 5, "producto": "Mouse", "cliente": "Manuel", "cantidad": 25 },
+    { "id": 6, "producto": "Monitor", "cliente": "Francisco", "cantidad": 150 },
+    { "id": 7, "producto": "Cafe", "cliente": "Fernando", "cantidad": 44 },
+    { "id": 8, "producto": "Tv", "cliente": "Mauricio", "cantidad": 36 },
+    { "id": 9, "producto": "Billetera", "cliente": "Harvey", "cantidad": 65 }
+  ],
+
+  "favoritesList": [
+    { "id": 1, "producto": "Zapatillas", "isFavorite": false },
+    { "id": 2, "producto": "Celular", "isFavorite": true },
+    { "id": 3, "producto": "Audifonos", "isFavorite": false },
+    { "id": 4, "producto": "Teclado", "isFavorite": false },
+    { "id": 5, "producto": "Mouse", "isFavorite": true },
+    { "id": 6, "producto": "Monitor", "isFavorite": true },
+    { "id": 7, "producto": "Cafe", "isFavorite": false },
+    { "id": 8, "producto": "Tv", "isFavorite": false },
+    { "id": 9, "producto": "Billetera", "isFavorite": false }
+  ]
+}
